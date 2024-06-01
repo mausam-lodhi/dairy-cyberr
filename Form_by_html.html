@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>form_by_table</title>
+	</head>
+	<body bgcolor="#98Fb98" align="center">
+		<form action="form_by_html.html" method="get">
+			<table
+				border="1px solid black"
+				width="100%"
+				style="cell-padding: 0"
+			>
+				<caption><h2>Normal Form</h2></caption>
+				<tr style="width: 140px; height: 50px">
+					<td><label for="fname">First Name</label></td>
+					<td><input type="text" id="fname" size="15" required /></td>
+					<td><label for="lname">Last Name</label></td>
+					<td><input type="text" id="lname" size="15" required /></td>
+				</tr>
+
+				<tr style="width: 140px; height: 50px">
+					<td><label for="fsname">Father's Name</label></td>
+					<td
+						><input type="text" id="fsname" required size="15"
+					/></td>
+					<td><label for="Msname">Mother's Name</label></td>
+					<td
+						><input type="text" id="Msname" required size="15"
+					/></td>
+				</tr>
+
+				<tr style="width: 140px; height: 50px">
+					<td><label for="Siblings">Siblings</label></td>
+					<td
+						><input
+							type="number"
+							id="Siblings"
+							style="width: 50px"
+							required
+					/></td>
+					<td><label for="age">Age</label></td>
+					<td
+						><input
+							type="number"
+							id="age"
+							style="width: 50px"
+							required
+							min="18"
+							max="28"
+					/></td>
+				</tr>
+
+				<tr style="width: 140px; height: 50px">
+					<td><label for="c_number">Mobile Number</label></td>
+					<td
+						><input type="tel" id="c_number" size="12" required
+					/></td>
+					<td><label for="a_number">Aadhar Number</label></td>
+					<td
+						><input type="number" id="a_number" size="12" required
+					/></td>
+				</tr>
+
+				<tr style="width: 140px; height: 50px">
+					<td><label for="user_name">Username</label></td>
+					<td
+						><input type="text" id="user_name" size="15" required
+					/></td>
+					<td><label for="password">Password</label></td>
+					<td
+						><input
+							type="password"
+							id="password"
+							size="15"
+							required
+					/></td>
+				</tr>
+
+				<tr>
+					<td><label for="dob">DOB</label></td>
+					<td><input type="date" id="dob" size="5" required /></td>
+					<td style="width: 140px; height: 50px"
+						><label for="email">Email</label></td
+					>
+					<td
+						><input type="email" id="email" size="10" required
+					/></td>
+				</tr>
+
+				<tr style="width: 140px; height: 50px">
+					<td><label for="country">Country</label></td>
+					<td
+						><select id="country" name="Country">
+							<option value="IND" selected>BHARAT</option>
+							<option value="PAK">PAKISTAN</option>
+							<option value="USA">AMERICA</option>
+							<option value="UK">BRITAIN</option>
+							<option value="else">Anywhere else</option></select
+						>
+					</td>
+					<td><label for="state">State</label></td>
+					<td
+						><select id="state" name="State">
+							<option value="MP" selected>MADHYA PRADESH</option>
+							<option value="UP">UTTAR PRADESH</option>
+							<option value="GOA">GOA</option>
+							<option value="SHIMLA">SHIMLA</option>
+							<option value="else">Anywhere else</option></select
+						>
+					</td>
+				</tr>
+
+				<tr style="width: 140px; height: 50px">
+					<td><label for="file_upload">Choose File</label></td>
+					<td><input type="file" id="file_upload" /></td>
+					<td><label for="address">Address</label></td>
+					<td
+						><input
+							type="text"
+							id="address"
+							size="18"
+							required
+							style="width: 90px; height: 30px"
+					/></td>
+				</tr>
+				<tr style="width: 140px; height: 50px">
+					<td><label for="submit">Submit</label></td>
+					<td
+						><input
+							type="submit"
+							id="submit"
+							style="width: 60px; height: 30px"
+					/></td>
+					<td><label for="reset">Reset</label></td>
+					<td
+						><input
+							type="reset"
+							id="reset"
+							style="width: 60px; height: 30px"
+					/></td>
+				</tr>
+			</table>
+		</form>
+	</body>
+	<br />
+	<h3>
+		Created with &hearts; by
+		<a
+			href="mailto:harprasadlodhi1984@gmail.com"
+			style="text-decoration: none"
+			>Mausam</a
+		></h3
+	>
+</html>
