@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0.2vh;
+    font-family: "Calistoga", serif;
+}
+.calistoga-regular {
+    font-family: "Calistoga", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: lightgrey;
+    margin-block: 0;
+}
+#click_me {
+    border: 1px solid black;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+.main_bar_div a {
+    border: 1px solid blue !important;
+}
+.main a {
+    border: 1px solid whitesmoke;
+}
+h1 {
+    text-align: center;
+}
+header {
+    display: flex;
+    height: 45vh;
+}
+.image {
+    flex: 4;
+    margin: 0;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+div .clickme {
+    width: 100%;
+    margin: 0;
+}
+.main_bar {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    text-align: center;
+    flex: 1.2;
+    background-color: lightblue;
+}
+.main_bar_div {
+    visibility: hidden;
+    
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.dropdown {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+#click_me:checked ~ .main_bar_div {
+    visibility: visible;
+    display: flex;
+    margin-top: 1vh;
+    flex-direction: column;
+    border: 1px solid lightblue;
+    height: 100%;
+    justify-content: space-between;
+    background-color:lightyellow;
+}
+.b2,
+.sem_list,
+.course_list,
+.b3,
+.sub_list,
+.b4,
+.mode_list {
+    display: none;
+}
+
+#forbutton2:checked + .b2,
+#forbutton3:checked + .b3,
+#forbutton4:checked + .b4 {
+    visibility: visible;
+    display: block;
+}
+
+#subjects:checked ~ .sub_list,
+#modes:checked ~ .mode_list,
+#sems:checked ~ .sem_list,
+#courses:checked ~ .course_list {
+    visibility: visible;
+    display: flex;
+    margin-top: 1vh;
+    flex-direction: column;
+    border: 1px solid lightblue;
+    height: 100%;
+    justify-content: space-between;
+    text-align: center;
+}
+input {
+    display: none;
+}
+button {
+    display: inline;
+}
