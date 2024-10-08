@@ -1,1 +1,1 @@
-SADA JEEWAN UCHHA VICHAR
+I am open to explore
